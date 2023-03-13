@@ -27,23 +27,23 @@ The HTML code creates a simple form with a label, an input field for the length 
 </html>
 ```
 
-The first line <!DOCTYPE html> tells the browser which version of HTML to use.
-The <html> tags contain all of the HTML code for the web page.
-The <head> tags contain information about the web page that is not displayed to the user, such as the title of the web page and the link to the CSS file.
-The <title> tag sets the title of the web page that is displayed in the browser's title bar.
-The <link> tag links to the CSS file that styles the web page.
-The <body> tags contain all of the visible content of the web page.
-The <form> tags create a form that the user can interact with.
-The <label> tags provide a label for an input field.
-The for attribute of the <label> tags links the label to the corresponding input field using the id attribute.
-The <input> tags create input fields for the user to enter data.
-The type attribute of the <input> tags specifies the type of input field.
-The id attribute of the <input> tags creates a unique identifier for the input field that is used to reference it in the JavaScript code.
-The name attribute of the <input> tags specifies the name of the input field that is used when the form is submitted.
-The <button> tags create a button that the user can click to perform an action.
-The onclick attribute of the <button> tags calls a JavaScript function when the button is clicked.
-The readonly attribute of the output <input> tag makes it so that the user can't edit the generated password.
-The <script> tag links to the JavaScript file that contains the code to generate and copy the password.
+* The first line <!DOCTYPE html> tells the browser which version of HTML to use.
+* The <html> tags contain all of the HTML code for the web page.
+* The <head> tags contain information about the web page that is not displayed to the user, such as the title of the web page and the link to the CSS file.
+* The <title> tag sets the title of the web page that is displayed in the browser's title bar.
+* The <link> tag links to the CSS file that styles the web page.
+* The <body> tags contain all of the visible content of the web page.
+* The <form> tags create a form that the user can interact with.
+* The <label> tags provide a label for an input field.
+* The for attribute of the <label> tags links the label to the corresponding input field using the id attribute.
+* The <input> tags create input fields for the user to enter data.
+* The type attribute of the <input> tags specifies the type of input field.
+* The id attribute of the <input> tags creates a unique identifier for the input field that is used to reference it in the JavaScript code.
+* The name attribute of the <input> tags specifies the name of the input field that is used when the form is submitted.
+* The <button> tags create a button that the user can click to perform an action.
+* The onclick attribute of the <button> tags calls a JavaScript function when the button is clicked.
+* The readonly attribute of the output <input> tag makes it so that the user can't edit the generated password.
+* The <script> tag links to the JavaScript file that contains the code to generate and copy the password.
 	
 ---
 
@@ -110,32 +110,32 @@ button:hover {
 
 ```
 	
-The form selector applies styles to the entire form element. <br>
-margin, padding, and border properties set the margin, padding, and border of the form element respectively. <br>
-border-radius property sets the rounded corners of the form element. <br>
-width property sets the width of the form element. <br>
-font-family property sets the font used for the text in the form element. <br>
-The label selector applies styles to all the label elements in the form. <br>
-display: inline-block property makes the label elements display next to each other. <br>
-width property sets the width of the label elements. <br>
-text-align property sets the horizontal alignment of the text in the label elements. <br>
-margin-right property sets the right margin of the label elements. <br>
-The input[type="number"] and input[type="text"] selectors apply styles to the input fields with type attribute set to number and text respectively. <br>
-padding property sets the padding of the input fields. <br>
-margin-bottom property sets the bottom margin of the input fields. <br>
-border-radius property sets the rounded corners of the input fields. <br>
-border property sets the border of the input fields. <br>
-font-size property sets the font size of the text in the input fields. <br>
-The button selector applies styles to all the button elements. <br>
-padding property sets the padding of the button elements. <br>
-background-color property sets the background color of the button elements. <br>
-color property sets the text color of the button elements. <br>
-border property sets the border of the button elements. <br>
-border-radius property sets the rounded corners of the button elements. <br>
-font-size property sets the font size of the text in the button elements. <br>
-cursor property changes the shape of the cursor when hovering over the button element. <br>
-The button:hover selector applies styles to the button element when the mouse pointer is hovering over it. <br>
-background-color property sets the background color of the button element when the mouse pointer is hovering over it. <br>
+* The form selector applies styles to the entire form element. 
+* margin, padding, and border properties set the margin, padding, and border of the form element respectively. 
+* border-radius property sets the rounded corners of the form element. 
+* width property sets the width of the form element. 
+* font-family property sets the font used for the text in the form element. 
+* The label selector applies styles to all the label elements in the form. 
+* display: inline-block property makes the label elements display next to each other. 
+* width property sets the width of the label elements. 
+* text-align property sets the horizontal alignment of the text in the label elements. 
+* margin-right property sets the right margin of the label elements. 
+* The input[type="number"] and input[type="text"] selectors apply styles to the input fields with type attribute set to number and text respectively. 
+* padding property sets the padding of the input fields. 
+* margin-bottom property sets the bottom margin of the input fields. 
+* border-radius property sets the rounded corners of the input fields. 
+* border property sets the border of the input fields. 
+* font-size property sets the font size of the text in the input fields. 
+* The button selector applies styles to all the button elements. 
+* padding property sets the padding of the button elements. 
+* background-color property sets the background color of the button elements. 
+* color property sets the text color of the button elements. 
+* border property sets the border of the button elements. 
+* border-radius property sets the rounded corners of the button elements. 
+* font-size property sets the font size of the text in the button elements. 
+* cursor property changes the shape of the cursor when hovering over the button element. 
+* The button:hover selector applies styles to the button element when the mouse pointer is hovering over it. 
+* background-color property sets the background color of the button element when the mouse pointer is hovering over it. 
 	
 ---
 
