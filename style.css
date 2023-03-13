@@ -1,0 +1,59 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+input[type="number"] {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 50px;
+}
+
+button {
+	display: inline-block;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 3px;
+	background-color: #4CAF50;
+	color: #fff;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+.output-container {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+#password {
+	flex-grow: 1;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: monospace;
+}
+
+#copy {
+	border: none;
+	background-color: #fff;
+	color: #4CAF50;
+	cursor: pointer;
+}
