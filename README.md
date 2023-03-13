@@ -29,3 +29,6 @@ function copyPassword() {
 The copyPassword() function copies the password from the output field to the clipboard when the user clicks the "Copy Password" button. It first gets a reference to the output field by using the getElementById() method to get the element with the id "password". It then selects the text in the output field by calling the select() method on the element, followed by the setSelectionRange() method with the values of 0 and 99999 as arguments (the latter value is used for mobile devices). Finally, it calls the execCommand() method with the argument "copy" to copy the selected text to the clipboard. It then displays an alert message to the user to indicate that the password has been copied.
 
 Overall, this code demonstrates how to use HTML, CSS, and JavaScript to create a simple password generator that can be customized by the user, and how to use JavaScript to interact with the DOM and manipulate the content of HTML elements. The generatePassword() function also illustrates the use of loops and random number generation in JavaScript. The copyPassword() function demonstrates how to use the execCommand() method to interact with the user's system clipboard.
+
+[Try it out here](https://chengus.github.io/Password-Generator/)
+
